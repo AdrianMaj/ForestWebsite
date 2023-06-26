@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakt | Forest Group</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <link rel="stylesheet" href="./dist/css/style.min.css">
 <script src="https://kit.fontawesome.com/1b20b9aa8a.js" crossorigin="anonymous"></script>
@@ -24,12 +24,67 @@
     </div>
     <div class="navigation__menu">
         <div class="navigation__close-icon"><i class="ti ti-x"></i></div>
-        <a href="#home" class="navigation__menu-element">Home</a>
-        <a href="#o-nas" class="navigation__menu-element">O nas</a>
-        <a href="#oferta" class="navigation__menu-element">Oferta</a>
-        <a href="#kontakt" class="navigation__menu-element">Kontakt</a>
+        <a href="index.html#home" class="navigation__menu-element">Home</a>
+        <a href="index.html#o-nas" class="navigation__menu-element">O nas</a>
+        <a href="index.html#oferta" class="navigation__menu-element">Oferta</a>
+        <a href="kontakt.html" class="navigation__menu-element">Kontakt</a>
     </div>
 </nav>
+    <form class="contact section">
+        <h1 class="contact__title">Kontakt</h1>
+        <label for="name">Imię:</label>
+        <input class='contact__input' type="text" id="name" placeholder="Imię">
+        <p class="contact__name-error contact__error">imie złe</p>
+        <label for="surname">Nazwisko:</label>
+        <input class='contact__input' type="text" id="surname" placeholder="Nazwisko">
+        <p class="contact__surname-error contact__error ">nazwisko złe</p>
+        <label for="email">Email:</label>
+        <input class='contact__input' type="email" id="email" placeholder="Email">
+        <p class="contact__email-error contact__error">Email zły</p>
+        <label for="message">Wiadomość:</label>
+        <textarea class='contact__textarea' id="message" cols="30" rows="10"
+            placeholder="Wpisz swoją wiadomość..."></textarea>
+        <p class="contact__textarea-error contact__error"></p>
+        <button type="submit" class="contact__send-btn">Wyślij</button>
+    </form>
+    <section class="map">
+        <h2 class="map__title">Odwiedź nas!</h2>
+        <div class="map__container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8980500889875!2d19.89026927696854!3d50.08819561338003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1687771985988!5m2!1spl!2spl"
+                style="border:0; width: 100%; height: 100%; object-fit: cover;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="footer__logo">
+        <i class="fas fa-tree"></i>
+        <p>Forest</p>
+    </div>
+    <div class="footer__sitemap">
+        <div class="footer__section footer__section--aboutus">
+            <h3 class="footer__title">O nas</h3>
+            <a href="#" class="footer__link">Historia</a>
+            <a href="#" class="footer__link">Parki</a>
+            <a href="#" class="footer__link">Opinie</a>
+        </div>
+        <div class="footer__section footer__section--company">
+            <h3 class="footer__title">Nasza firma</h3>
+            <a href="#" class="footer__link">Praca</a>
+            <a href="#" class="footer__link">Kadry</a>
+            <a href="#" class="footer__link">Zarząd</a>
+        </div>
+        <div class="footer__section footer__section--documents">
+            <h3 class="footer__title">Dokumenty</h3>
+            <a href="#" class="footer__link">Wnioski</a>
+            <a href="#" class="footer__link">Rezerwacje</a>
+        </div>
+    </div>
+    <div class="footer__line"></div>
+    <p class="footer__copyright">
+        ©<span class="year">2023</span> Forest Group Company Ltd.
+    </p>
+</footer>
     <script src="./dist/js/script.min.js"></script>
 </body>
 

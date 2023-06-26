@@ -32,19 +32,26 @@
 </nav>
     <form class="contact section">
         <h1 class="contact__title">Kontakt</h1>
-        <label for="name">Imię:</label>
-        <input class='contact__input' type="text" id="name" placeholder="Imię">
-        <p class="contact__name-error contact__error">imie złe</p>
-        <label for="surname">Nazwisko:</label>
-        <input class='contact__input' type="text" id="surname" placeholder="Nazwisko">
-        <p class="contact__surname-error contact__error ">nazwisko złe</p>
-        <label for="email">Email:</label>
-        <input class='contact__input' type="email" id="email" placeholder="Email">
-        <p class="contact__email-error contact__error">Email zły</p>
-        <label for="message">Wiadomość:</label>
-        <textarea class='contact__textarea' id="message" cols="30" rows="10"
-            placeholder="Wpisz swoją wiadomość..."></textarea>
-        <p class="contact__textarea-error contact__error"></p>
+        <div class="contact__name">
+            <label for="name">Imię:</label>
+            <input class='contact__input' type="text" id="name" placeholder="Imię">
+            <p class="contact__name-error contact__error">imie złe</p>
+        </div>
+        <div class="contact__surname">
+            <label for="surname">Nazwisko:</label>
+            <input class='contact__input' type="text" id="surname" placeholder="Nazwisko">
+            <p class="contact__surname-error contact__error ">nazwisko złe</p>
+        </div>
+        <div class="contact__email">
+            <label for="email">Email:</label>
+            <input class='contact__input' type="email" id="email" placeholder="Email">
+            <p class="contact__email-error contact__error">Email zły</p>
+        </div>
+        <div class="contact__textarea-container"> <label for="message">Wiadomość:</label>
+            <textarea class='contact__textarea' id="message" cols="30" rows="10"
+                placeholder="Wpisz swoją wiadomość..."></textarea>
+            <p class="contact__textarea-error contact__error"></p>
+        </div>
         <button type="submit" class="contact__send-btn">Wyślij</button>
     </form>
     <section class="map">

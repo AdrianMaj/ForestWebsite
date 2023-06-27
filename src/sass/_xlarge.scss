@@ -1,0 +1,127 @@
+@use './colors' as *;
+@media (min-width: 1200px) {
+	.title {
+		font-size: 3.5rem;
+	}
+	//NAVIGATION
+	.navigation {
+		padding: 0 10em;
+		&__logo {
+			margin-right: auto;
+			i {
+				font-size: 3.5rem;
+			}
+			p {
+				font-size: 3.5rem;
+			}
+		}
+		&__menu-element {
+			font-size: 2.5rem;
+		}
+	}
+	//FOOTER
+	.footer {
+		&__menu {
+			display: flex;
+			padding: 0 11.25em;
+		}
+		&__logo {
+			width: 30%;
+			margin-right: auto;
+			padding-top: 3em;
+			justify-content: flex-start;
+			align-items: flex-start;
+			i {
+				font-size: 5.5rem;
+			}
+			p {
+				font-size: 5.5rem;
+			}
+		}
+		&__sitemap {
+			width: 70%;
+		}
+		&__section {
+			width: 100%;
+			padding: 2.4em 1em;
+		}
+		&__title {
+			font-size: 3rem;
+		}
+		&__link {
+			font-size: 2.3rem;
+		}
+		&__copyright {
+			font-size: 2rem;
+		}
+	}
+	//HERO IMAGE
+	.hero-img {
+		padding: 8em 11.25em;
+		&__text {
+			padding: 0;
+			font-size: 2rem;
+		}
+		&__title {
+			padding: 0;
+			font-size: 3.5rem;
+		}
+	}
+	.hero-img-second {
+		&__text {
+			font-size: 4rem;
+		}
+	}
+	//ABOUT US
+	.about-us {
+		padding: 0 11.25em;
+		&__img {
+			padding-left: 0;
+		}
+		&__text-title {
+			font-size: 3rem;
+		}
+		&__text {
+			font-size: 1.8rem;
+		}
+	}
+	//OFFER
+	.offer {
+		&__text {
+			font-size: 2.5rem;
+		}
+		&__card-title {
+			font-size: 3.2rem;
+		}
+		&__card-price {
+			font-size: 4.5rem;
+		}
+		&__card-option {
+			font-size: 1.8rem;
+			i {
+				font-size: 1.6rem;
+			}
+		}
+		&__card-btn {
+			font-size: 1.7rem;
+		}
+		&__more-offers {
+			font-size: 2.5rem;
+		}
+	}
+	.contact {
+		&__title {
+			width: 100%;
+			font-size: 4.5rem;
+		}
+		&__textarea,
+		&__label,
+		&__input,
+		&__send-btn {
+			font-size: 2.5rem;
+		}
+		&__error {
+			font-size: 2rem;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+@use './colors' as *;
+@media (min-width: 992px) {
+	.title {
+		font-size: 3.5rem;
+	}
+	//NAVIGATION
+	.navigation {
+		padding: 0 1em;
+		&__menu {
+			position: static;
+			flex-direction: row;
+			width: auto;
+			height: auto;
+			background-color: none;
+			padding: 0;
+		}
+		&__menu-element {
+			padding: 0 0.75em;
+			transition: background-color 0.3s, color 0.3s;
+			font-weight: normal;
+			&:hover {
+				background-color: black;
+				color: $second-text-color;
+			}
+		}
+		&__close-icon {
+			display: none;
+		}
+		&__hamburger {
+			display: none;
+		}
+		&__logo {
+			margin-right: auto;
+			padding: 0 2rem;
+			i {
+				font-size: 4.5rem;
+			}
+			p {
+				font-size: 4.5rem;
+			}
+		}
+		&__menu-element {
+			font-size: 3rem;
+		}
+	}
+	//FOOTER
+}

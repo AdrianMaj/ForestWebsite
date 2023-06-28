@@ -151,6 +151,7 @@ h3 {
 		font-size: 2rem;
 	}
 	&__link {
+		position: relative;
 		margin-bottom: 1em;
 		text-decoration: none;
 		color: $logo-color;
@@ -387,7 +388,6 @@ h3 {
 		margin-bottom: 0.3em;
 		font-family: 'Raleway', sans-serif;
 		border-radius: 5px;
-		// border: 1px solid $logo-color;
 		border: none;
 		box-shadow: 0 1px 15px $box-shadow;
 	}
@@ -410,8 +410,13 @@ h3 {
 	&__textarea-error {
 		margin-bottom: 2em;
 	}
+	&__btn-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
 	&__send-btn {
-		align-self: center;
 		padding: 1em 2em;
 		margin-bottom: 2em;
 		width: 80%;
@@ -427,7 +432,6 @@ h3 {
 		&:hover {
 			background-color: $logo-color;
 			color: white;
-			// border: 1px solid white;
 		}
 	}
 	&__title {

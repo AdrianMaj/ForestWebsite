@@ -6,6 +6,7 @@ const navigation = document.querySelector('.navigation')
 const body = document.querySelector('body')
 const html = document.querySelector('html')
 const menuElements = document.querySelectorAll('.navigation__menu-element')
+const year = document.querySelector('.year')
 
 //NAVIGATION
 const showMenu = () => {
@@ -25,6 +26,12 @@ const hideMenu = () => {
 	window.scrollTo(0, scrollTopPosition)
 	html.style.scrollBehavior = 'smooth'
 }
+//YEAR
+const showActualYear = () => {
+	const date = new Date()
+	year.textContent = date.getFullYear()
+}
+showActualYear()
 //NAVIGATION
 menuHamburgerBtn.addEventListener('click', showMenu)
 menuCloseBtn.addEventListener('click', hideMenu)

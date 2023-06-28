@@ -61,7 +61,7 @@
 	}
 	//HERO IMAGE
 	.hero-img {
-		padding: 8em 11.25em;
+		padding: 12em 11.25em;
 		background-image: url('../img/jungle_big.jpg');
 		&__text {
 			padding: 0;
@@ -81,6 +81,7 @@
 	//ABOUT US
 	.about-us {
 		padding: 0 11.25em;
+		padding-bottom: 3em;
 		&__img {
 			padding-left: 0;
 		}

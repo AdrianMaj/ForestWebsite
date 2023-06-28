@@ -9,6 +9,9 @@ const menuElements = document.querySelectorAll('.navigation__menu-element')
 const year = document.querySelector('.year')
 
 //NAVIGATION
+// menuElements.forEach(link => {
+// 	link.preventDefault()
+// })
 const showMenu = () => {
 	const scrollTopPosition = window.scrollY
 	menu.classList.add('active')

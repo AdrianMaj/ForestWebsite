@@ -1,5 +1,8 @@
 @use './colors' as *;
 @media (min-width: 1200px) {
+	html{
+		scroll-padding-top: 73px;
+	}
 	.title {
 		font-size: 3.5rem;
 	}
@@ -58,6 +61,7 @@
 	//HERO IMAGE
 	.hero-img {
 		padding: 8em 11.25em;
+		background-image: url('../img/jungle_big.jpg');
 		&__text {
 			padding: 0;
 			font-size: 2rem;
@@ -68,6 +72,7 @@
 		}
 	}
 	.hero-img-second {
+		background-image: url('../img/girl_big.jpg');
 		&__text {
 			font-size: 4rem;
 		}
@@ -79,7 +84,7 @@
 			padding-left: 0;
 		}
 		&__text-title {
-			font-size: 3rem;
+			font-size: 2.5rem;
 		}
 		&__text {
 			font-size: 1.8rem;
@@ -89,6 +94,11 @@
 	.offer {
 		&__text {
 			font-size: 2.5rem;
+		}
+		&__site-cards{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, 1fr);
 		}
 		&__card-title {
 			font-size: 3.2rem;
@@ -110,6 +120,7 @@
 		}
 	}
 	.contact {
+		padding: 1em 11.25em 4em 11.25em;
 		&__title {
 			width: 100%;
 			font-size: 4.5rem;
@@ -120,8 +131,14 @@
 		&__send-btn {
 			font-size: 2.5rem;
 		}
+		&__send-btn{
+			width: 60%;
+		}
 		&__error {
 			font-size: 2rem;
 		}
+	}
+	.map{
+		padding: 1em 11.25em;
 	}
 }

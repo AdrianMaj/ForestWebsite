@@ -1,0 +1,157 @@
+@use './colors' as *;
+@media (min-width: 1400px) {
+	html {
+		scroll-padding-top: 75px;
+	}
+	.title {
+		font-size: 3.5rem;
+	}
+	//NAVIGATION
+	.navigation {
+		padding: 0 15em;
+		&__logo {
+			margin-right: auto;
+			i {
+				font-size: 3rem;
+			}
+			p {
+				font-size: 3rem;
+			}
+		}
+		&__menu-element {
+			font-size: 1.6rem;
+			padding: 1em 2em;
+		}
+	}
+	//FOOTER
+	.footer {
+		&__menu {
+			justify-content: center;
+			padding: 0 16.25em;
+			padding-top: 1.5em;
+		}
+		&__logo {
+			width: auto;
+			margin-right: 16.25em;
+			padding-top: 3em;
+			justify-content: flex-start;
+			align-items: flex-start;
+			i {
+				font-size: 4.5rem;
+			}
+			p {
+				font-size: 4.5rem;
+			}
+		}
+		&__sitemap {
+			width: auto;
+		}
+		&__section {
+			width: auto;
+			padding: 2.4em 2em;
+		}
+		&__title {
+			font-size: 2rem;
+			align-self: flex-start;
+		}
+		&__link {
+			font-size: 1.4rem;
+			line-height: 1.5em;
+			align-self: flex-start;
+		}
+		&__copyright {
+			font-size: 1.4rem;
+		}
+	}
+	//HERO IMAGE
+	.hero-img {
+		padding: 9em 16.25em;
+		&__text {
+			font-size: 2.5rem;
+		}
+		&__title {
+			margin-bottom: 1em;
+			font-size: 4rem;
+		}
+	}
+	.hero-img-second {
+		&__text {
+			font-size: 4rem;
+			padding: 1em 5em;
+		}
+	}
+	//ABOUT US
+	.about-us {
+		padding: 0 16.25em;
+		&__img {
+			padding-left: 0;
+			width: 47.5%;
+		}
+		&__text-title {
+			font-size: 2.5rem;
+		}
+		&__text {
+			font-size: 1.8rem;
+			line-height: 2em;
+		}
+	}
+	//OFFER
+	.offer {
+		&__text {
+			font-size: 2.2rem;
+		}
+		&__card {
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			margin-bottom: 3em;
+		}
+		&__card-title {
+			font-size: 3rem;
+		}
+		&__card-price {
+			font-size: 4.5rem;
+		}
+		&__card-option {
+			font-size: 1.8rem;
+			i {
+				font-size: 1.6rem;
+			}
+		}
+		&__card-btn {
+			font-size: 1.7rem;
+		}
+		&__more-offers {
+			font-size: 2.2rem;
+		}
+	}
+	.contact {
+		padding: 1em 21.25em 4em 21.25em;
+		&__title {
+			width: 100%;
+			font-size: 3.5rem;
+		}
+		&__textarea,
+		&__label,
+		&__input,
+		&__send-btn {
+			font-size: 1.6rem;
+		}
+		&__send-btn {
+			margin-top: 1em;
+			width: 40%;
+		}
+		&__error {
+			font-size: 1.5rem;
+			margin-bottom: 0.3em;
+		}
+	}
+	.popup {
+		width: 50%;
+	}
+	.map {
+		padding: 1em 24.25em;
+		&__title {
+			font-size: 3rem;
+		}
+	}
+}

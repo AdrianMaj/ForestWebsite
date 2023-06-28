@@ -1,5 +1,8 @@
 @use './colors' as *;
 @media (min-width: 768px) {
+	html{
+		scroll-padding-top: 111px;
+	}
 	.title {
 		font-size: 3rem;
 	}

@@ -1,5 +1,8 @@
 @use './colors' as *;
 @media (min-width: 992px) {
+	html {
+		scroll-padding-top: 88px;
+	}
 	.title {
 		font-size: 3.5rem;
 	}
@@ -18,7 +21,8 @@
 			padding: 0 0.75em;
 			transition: background-color 0.3s, color 0.3s;
 			font-weight: normal;
-			&:hover {
+			&:hover,
+			&--active {
 				background-color: black;
 				color: $second-text-color;
 			}
@@ -43,5 +47,9 @@
 			font-size: 3rem;
 		}
 	}
-	//FOOTER
+	.contact {
+		&__send-btn {
+			width: 60%;
+		}
+	}
 }

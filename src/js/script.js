@@ -8,6 +8,10 @@ const html = document.querySelector('html')
 const menuElements = document.querySelectorAll('.navigation__menu-element')
 const year = document.querySelector('.year')
 
+const home = document.querySelector('.hero-img')
+const aboutUs = document.querySelector('.about-us')
+const offer = document.querySelector('.offer')
+
 //NAVIGATION
 // menuElements.forEach(link => {
 // 	link.preventDefault()
@@ -30,11 +34,15 @@ const hideMenu = () => {
 	html.style.scrollBehavior = 'smooth'
 }
 //YEAR
+
 const showActualYear = () => {
 	const date = new Date()
 	year.textContent = date.getFullYear()
 }
 showActualYear()
+
+const mediaQuery = window.matchMedia('(max-width: 991px)')
+
 //NAVIGATION
 menuHamburgerBtn.addEventListener('click', showMenu)
 menuCloseBtn.addEventListener('click', hideMenu)

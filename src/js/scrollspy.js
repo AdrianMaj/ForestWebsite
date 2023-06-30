@@ -1,4 +1,5 @@
 const menuElements = document.querySelectorAll('.navigation__menu-element')
+menuElements[0].classList.add('navigation__menu-element--active')
 const sections = document.querySelectorAll('.scrollspy')
 let scrollPos = 0
 const observer = new IntersectionObserver(

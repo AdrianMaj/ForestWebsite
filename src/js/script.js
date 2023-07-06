@@ -41,8 +41,6 @@ const showActualYear = () => {
 }
 showActualYear()
 
-const mediaQuery = window.matchMedia('(max-width: 991px)')
-
 //NAVIGATION
 menuHamburgerBtn.addEventListener('click', showMenu)
 menuCloseBtn.addEventListener('click', hideMenu)

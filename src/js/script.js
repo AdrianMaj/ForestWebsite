@@ -27,9 +27,7 @@ const hideMenu = () => {
 	menu.classList.remove('active')
 	navigation.style.overflow = 'hidden'
 	body.classList.remove('fixed-position')
-	html.style.scrollBehavior = 'auto'
 	body.style.top = ''
-	html.style.scrollBehavior = 'smooth'
 }
 
 //YEAR

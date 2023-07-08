@@ -24,17 +24,15 @@ const showMenu = () => {
 	body.style.top = `-${scrollTopPosition}px`
 }
 const hideMenu = () => {
-	const scrollTopPosition = Math.abs(parseInt(body.style.top, 10))
 	menu.classList.remove('active')
 	navigation.style.overflow = 'hidden'
 	body.classList.remove('fixed-position')
 	html.style.scrollBehavior = 'auto'
 	body.style.top = ''
-	window.scrollTo(0, scrollTopPosition)
 	html.style.scrollBehavior = 'smooth'
 }
-//YEAR
 
+//YEAR
 const showActualYear = () => {
 	const date = new Date()
 	year.textContent = date.getFullYear()

@@ -11,17 +11,19 @@
 
 ## Overview
 
+  This is my biggest project, I made everything (except desktop design) by myself.
+
 ### Screenshot
 
 ![](./screenshots/screenshot.jpeg)
 
 ### Links
 
-- Live Site URL: [Live Site](https://adrianmaj.github.io/ForestWebsite/)
+- Live Site URL: 💻[Live Site](https://adrianmaj.github.io/ForestWebsite/) 💻
 
 ## My process
 
-### Built with
+### Built with 🛠
 
 - Semantic HTML5 markup
 - CSS custom properties

@@ -434,6 +434,7 @@ h3 {
 		font-size: 1.6rem;
 		font-family: 'Raleway', sans-serif;
 		transition: color 0.3s, background-color 0.3s, border 0.3s;
+		cursor: pointer;
 		&:hover {
 			background-color: $logo-color;
 			color: white;

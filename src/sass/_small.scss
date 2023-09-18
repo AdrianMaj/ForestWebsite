@@ -74,34 +74,42 @@ h3 {
 			font-size: 3rem;
 		}
 	}
+	&__menu-background {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 66%;
+		height: 100%;
+		background-color: $second-text-color;
+		z-index: 1;
+	}
 	&__menu {
 		display: flex;
 		padding: 1.5em;
 		position: absolute;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		align-items: flex-end;
+		justify-content: flex-start;
 		top: 0;
 		right: -300em;
 		height: 100vh;
 		width: 100%;
-		background-color: $second-text-color;
+		background-color: rgba(0, 0, 0, 0.452);
 		transition: right 0.4s;
 		z-index: 10;
 	}
 	&__menu-element {
+		padding: 1em;
 		font-size: 2rem;
-		line-height: 3em;
+		line-height: 1em;
 		font-weight: bold;
 		text-decoration: none;
 		color: $text-color;
+		z-index: 2;
 	}
 	&__close-icon {
-		position: absolute;
-		margin: 1em;
-		padding: 1.5em;
-		top: 0;
-		right: 0;
+		padding: 1em;
+		z-index: 2;
 		cursor: pointer;
 		i {
 			font-size: 3rem;

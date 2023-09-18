@@ -22,11 +22,16 @@
 			flex-direction: row;
 			width: auto;
 			height: auto;
-			background-color: none;
+			background-color: white;
 			padding: 0;
+			justify-content: center;
+			align-items: center;
+		}
+		&__menu-background {
+			display: none;
 		}
 		&__menu-element {
-			padding: 0 0.75em;
+			padding: 1em 0.75em;
 			transition: background-color 0.3s, color 0.3s;
 			font-weight: normal;
 			&:hover,
